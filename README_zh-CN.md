@@ -99,7 +99,7 @@ openapi +
 | `*.pb.go`     | 由protoc通过protobuf生成的golang源代码                       |
 | `*.json.go`   | 由wand生成或手工编写的 json codec源代码，主要实现自定义的 json 序列化及反序列化 |
 | `*.fmt.go`    | 由 wand 生成或手工编写的实现 `Formatter`及` Parser` 接口的源代码，由 `@format` 属性定义的 `StructDecl` |
-| `*.ext.go`    | 由 wand 生成或手工编写的扩展函数源代码，主要针对 `Union`、`Boxed<Array<T>>`、`Boxed<Dictionary<Key,Value>>`等类型 |
+| `*.ext.go`    | 由 wand 生成或手工编写的扩展函数源代码，主要针对 `Union`、`Boxed<Array<T>>`、`Boxed<Map<Key,Value>>`等类型 |
 | `*.sql.go`    | 由 wand 生成或手工编写的 `sql` 模块的 `driver.Valuer` 及 `sql.Scanner` 接口 |
 
 #### 手工编辑与自动生成的覆盖原则
